@@ -1,19 +1,15 @@
-import Rightcard from "./Compnent/Rightcard"
-import Issue from "./Compnent/Issue"
-
+// import { AccordionDemo } from "./Component/Accorodian"
+// import About from "./Component/About"
+import ContactInfo from "./Component/Contact"
 
 function App() {
 
 
   return (
     <>
-      <div className="main-page px-28 mt-10 flex items-center gap-10  ">
-        <div className="right-side w-full ">
-        <Rightcard></Rightcard>
-        <Issue></Issue>
-        </div>
-      
-        </div> 
+      {/* <About></About> */}
+       {/* <AccordionDemo></AccordionDemo> */}
+       <ContactInfo></ContactInfo>
     </>
   )
 }
